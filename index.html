@@ -16,25 +16,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./aset/shiroko.jpg">
-
 </head>
 <body>
-    <script src="app.js"></script>
     <div class="head">
         <h1>Sujis List</h1>
-    </div>  
-        <form action="input" class="input">
-            <input type="text"> 
-            <button class="button" type="submit">
+    </div> 
+    <div class="container"> 
+        <form class="input">
+            <input type="text" placeholder="Enter The List"> 
+            <button class="button btn btn-primary" type="submit">
                 <i class="bi bi-plus-circle"></i>
             </button>
-            <br>
-            <div class="select">
-                <select name="todo" class="filter-todo">
-                    <option value="all">All</option>
-                    <option value="complated">Complated</option>
-                    <option value="uncomplated">Uncomplated</option>                   
-                </select>
-            </div>
         </form>
+        <div class="select">
+            <button class="btn btn-secondary">All</button>
+            <button class="btn btn-secondary">Completed</button>
+            <button class="btn btn-secondary">Uncompleted</button>
+        </div>
+        <div class="todo-list">
+            <ul class="list-group"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
 </html>

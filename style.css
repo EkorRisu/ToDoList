@@ -1,21 +1,39 @@
 body {
+  background-image: url("./aset/shirokooooooo.jpg");
+  background-size: 100%;
   background-color: #add8e6;
-  
 }
 .head {
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgba(19, 19, 214, 0.692)  ;
   font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
-.input{
-  margin-top: 50px;
+.container{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  align-content: center;
+  margin-top: 5%;
+  border: 2px solid black;
+  border-radius: 10px;
   height: 75%;
+  width: 30%;
+  background-color: white;
+  opacity: 80%;
+  
 }
-select{
-  display:block;
-  width: 45%;
-  height: 75%;
+input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px black solid;
+  outline: none;
+}
+.select{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
